@@ -13,7 +13,7 @@ const Main = ({rocket}) => {
   return(
     <section className="main">
       <h1 className="title">
-        {rocket}
+        {rocket ? rocket : 'Календарь Space X'}
       </h1>
 
       <div className="video-container">
