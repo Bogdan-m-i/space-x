@@ -13,7 +13,7 @@ const rocketImage = {
 
 const Features = ({ rocketFeatures }) => (
     <>
-		<Main />
+		<Main rocket={rocketFeatures.name} />
 		<section className="features">
 			<h2 className="features-title">
 				{rocketFeatures.name}<br/>Overview
